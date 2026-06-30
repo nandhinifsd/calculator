@@ -18,9 +18,9 @@ var  num3=document.querySelector("#num3");
         operation[i].addEventListener("click",function(){
              disp1.innerHTML="";
               disp2.innerHTML="";
-              num1.value=0;
-              num2.value=0;
-              num3.value=0;
+              num1.value=null;
+              num2.value=null;
+              num3.value=null;
               result=0;
             operationbtn.innerText=operation[i].innerText;
             console.log(operationbtn.innerText);
