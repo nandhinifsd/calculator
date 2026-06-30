@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+     <!--Bootstrap links-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+       <link href="styles.css" rel="stylesheet">
+        <!--Googlefont links-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+ <div class="display p-3 m-5 text-center" id="disp">
+         <h1 class="text-center headingfont">ARITHMATIC CALCULATOR</h1>
+        <div class="container mt-5 text-center">
+
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle subheadingfont operationbutton"
+                         type="button"
+                            data-bs-toggle="dropdown" id="operation">Select Your Operation</button>
+
+                <ul class="dropdown-menu bg-light text-justify" id="operation-type">
+                     <li class="item" id="add">Addition Operation</li>
+                    <li class="item" id="sub">Subtraction Operation</li>
+                    <li class="item" id="mul">Multiplication Operation</li>
+                     <li class="item" id="div">Division Operation</li>
+                    <li class="item" id="modulo">Modulo Operation</li>
+                     <li class="item" id="power">Exponent Operation</li>
+                      <li class="item" id="square">Square Operation</li>
+                    <li class="item" id="squareroot">Squareroot Operation</li>
+                    <li class="item" id="cube">Cube Operation</li>
+                     <li class="item" id="cuberoot">Cuberoot Operation</li>
+                </ul>
+                </div>
+            </div>
+            <div id="twoinputs" class="twoinputoperationspace subheadingfont text-center mt-2 mb-2 p-2">
+                
+                <div class="row  text-center d-flex flex-column flex-lg-row g-5 p-5">
+                    <div class="col-12 text-center">
+                        <h1 id="msg" class="subheadingfont text-center mb-1">Enter Two Values for operation</h1>
+                    </div>
+                    <div class="col-12  text-center col-lg-6 text-lg-end">
+                <input type="number" id="num1" class="numtextbox w-90" placeholder="Enter first value">
+                </div>
+                <div class="col-12  text-center col-lg-6 text-lg-start">
+                <input type="number" id="num2" class="numtextbox w-90" placeholder="Enter second value">
+                </div>
+                </div>
+                <div class="row  text-center d-flex flex-column flex-lg-row g-5 p-5">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-light text-center w-50 mt-1 mb-1" id="calculation1">Calculate</button>
+                    </div>
+                </div>
+                 <div class="row  text-center d-flex flex-column flex-lg-row g-5 p-5">
+                    <div class="col-12 text-center">
+                        <h1 class="headingfont text-center w-100 mt-1 mb-1 res1" id="result1"align="right"></h1>
+                    </div>
+                </div>
+            </div>
+            <div id="oneinputs" class="oneinputoperationspace subheadingfont text-center mt-2 mb-2 p-2">
+                
+             <div class="row  text-center d-flex flex-column flex-lg-row g-5 p-5">
+                    <div class="col-12 text-center">
+                        <h1 id="msg" class="subheadingfont text-center mb-1">Enter one value for operation</h1>
+                    </div>
+                    <div class="col-12 text-center">
+                <input type="number" id="num3" class="numtextbox w-90" placeholder="Enter the value">
+                </div>
+                 <div class="row  text-center d-flex flex-column flex-lg-row g-5 p-5">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-light text-center w-50 mt-1 mb-1" id="calculation2">Calculate</button>
+                    </div>
+                </div>
+                 <div class="row  text-center g-5 p-5">
+                    <div class="col-12 text-center">
+                        <h1 class="headingfont text-center w-100 mt-1 mb-1 res2" id="result2" align="right"></h1>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

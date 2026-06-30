@@ -1,0 +1,94 @@
+body{
+    background-image: url("calc.jpg");
+    background-size:  cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.display{
+    border-radius: 20px;
+    height:fit-content;
+    width:70vw;
+    
+     position:relative;
+     top:3vh;
+     left:12vw;
+      background: rgba(172, 170, 170, 0.15);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+    
+
+    border: 1px solid rgba(255,255,255,0.3);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.2),
+        inset 0 1px 1px rgba(255,255,255,0.4),
+        inset 0 -1px 1px rgba(255,255,255,0.15);
+}
+.headingfont{
+    color:black;
+   .space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+}
+
+
+.subheadingfont{
+    color:black;
+    font-size:larger;
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+.operationbutton{
+    width:40vw;
+}
+.dropdown-menu{
+    width:40vw;
+}
+.item{
+    padding:1px;
+    border-radius: 5px;
+}
+.item:hover{
+background-color: black;
+color:white;
+}
+.item:focus{
+background-color: black;
+color:white;
+}
+.numtextbox{
+    border-radius: 5px;
+    border:none;
+   
+}
+.twoinputoperationspace{
+    position:relative;
+    left:1vw;
+    top:0.5vh;
+    display:none;
+}
+.oneinputoperationspace{
+    position:relative;
+    left:1vw;
+    top:0.5vh;
+    display:none;
+}
+.res1{
+     position:relative;
+    left:1vw;
+    top:0.5vh;
+    display:none;
+}
+.res1{
+     position:relative;
+    left:1vw;
+    top:0.5vh;
+    display:none;
+}
